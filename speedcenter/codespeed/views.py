@@ -5,7 +5,7 @@ from django.http import HttpResponse, Http404, HttpResponseNotAllowed, HttpRespo
 from codespeed import settings
 from datetime import datetime
 from time import sleep
-import json
+import simplejson as json
 from itertools import chain
 
 def no_environment_error():
